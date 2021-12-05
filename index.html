@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes Rick{
+            from{
+                transform: translate(0px,0px);
+            }
+            to{
+                transform: translate(-800px,0px);
+            }
+        }
+        @keyframes Donald{
+            from{
+                transform: translate(0px,0px);
+            }
+            to{
+                transform: translate(-500px,0px);
+            }
+        }
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/bf/Flag_of_the_Soviet_Union_%28Incorrect_Depiction%29.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#cheese{
+    animation-name: Donald;
+    animation-delay: 1s; ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    height: 600px;
+    width: 400px;
+    position: absolute;
+}
+#nan{
+    height: 600px;
+    width: 400px;
+    position: absolute;
+    left: 1000px;
+}
+#DAD{
+    animation-name: Rick;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 900px;
+    transform: rotate(180deg)
+
+}
+    </style>
+</head>
+<body>
+    <img id="cheese" src="https://b.fssta.com/uploads/application/wwe/headshots/donald-trump.png">
+    <img id="nan" src="https://80sneverend.com/wp-content/uploads/2018/09/180918-Rick-Astley.png">
+    <img id="DAD" src="https://bergerbullets.com/wp-content/uploads/2019/09/27503_270_Caliber_150_Grain_Very_Low_Drag_VLD_Hunting.png">
+
+
+</body>
+</html>
